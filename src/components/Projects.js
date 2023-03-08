@@ -23,7 +23,9 @@ const Projects = () => {
           <li className="underline">
             <a href=" https://shoe-store-seven.vercel.app/" target="_blank" rel="noreferrer" >E-commerce Shoe Store</a>
           </li>
-         
+          <li className="underline">
+            <a href="https://ip-address-tracker-zeta-kohl.vercel.app/" target="_blank" rel="noreferrer" >IP Address Tracker</a>
+          </li>
         </ul>
       </section>
     </div>
