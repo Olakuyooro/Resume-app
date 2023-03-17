@@ -4,7 +4,10 @@ import TypeIt from 'typeit-react';
 const AboutMe = () => {
   return (
     <div className='text-white w-72 ml-8 sm:w-96 sm:mt-12 sm:ml-72'>
-      <TypeIt>
+      <TypeIt options={{
+          speed: 30,
+          waitUntilVisible: true,
+        }}>
         <p>
           My name is Praise, a Frontend developer based in Ibadan, Nigeria.{' '}
           <br></br>

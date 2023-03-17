@@ -4,5 +4,6 @@
 
 body{
   font-family: 'Inconsolata', monospace;
-  background-color: #0a0909;
+  background: url('./components/images/space-stars.gif');
+  background-repeat: repeat;
 }

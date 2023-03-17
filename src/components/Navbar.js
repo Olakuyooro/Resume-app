@@ -8,7 +8,7 @@ const Navbar = () => {
         <h3>Kuyooro Praise</h3>
         <h3>Frontend Developer</h3>
       </main>
-      <a href="https://drive.google.com/file/d/1YPje3soHgRG7AWe1FoOflxwK_EMzELVN/view?usp=sharing" download="">Download Resume</a>
+      <a href="https://drive.google.com/file/d/1E0BhLm5TpBzWc4H9AQBPETzJsttMbg2W/view?usp=share_link" download="">Download Resume</a>
 
     </div>
   );
