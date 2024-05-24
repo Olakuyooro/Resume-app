@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="text-white sm:ml-72 ml-8" >
-      <header className="text-lg text-4xl">
+      <header className="text-4xl">
         PROJECTS
       </header>
       <section className="mt-8" >
