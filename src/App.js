@@ -1,24 +1,25 @@
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import './App.css'
+import Skills from './components/Skills';
+// import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
     <div>
-      <div className='px-8 mt-8' >
+      <div className='mt-8' >
         <Navbar />
       </div>
       <div>
         <AboutMe/>
       </div>
+      <Skills/>
       <div className="mt-12">
         <Projects/>
       </div>
-      <div className="mt-32">
-        <Contact/>
-      </div>
+      {/* <WorkExperience/> */}
+      
     </div>
   );
 }
