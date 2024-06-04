@@ -16,3 +16,7 @@ Here are some of the key technologies and tools I work with:
 - **Styling:** Tailwind CSS
 - **Version Control:** Git, GitHub
 - **Tools:** Webpack, Babel, NPM, Yarn
+
+## Link 
+
+https://resume-app-ivory.vercel.app/
