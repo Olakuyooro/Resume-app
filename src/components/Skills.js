@@ -41,9 +41,9 @@ const Skills = () => {
   ];
 
   return (
-    <div className="px-12 mt-12" ref={ref}>
+    <div className="px-6 md:px-12 mt-12" ref={ref}>
       <h2 className="text-4xl text-white mb-8">Skills</h2>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {skills.map((skill, index) => (
           <motion.img
             key={index}

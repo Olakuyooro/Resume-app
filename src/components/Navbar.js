@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between text-white px-12">
+    <div className="md:flex justify-between text-white px-12 hidden">
       <main>
         <motion.h3
           initial={{ x: "-100vw" }}

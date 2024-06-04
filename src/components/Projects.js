@@ -30,7 +30,7 @@ const Projects = () => {
   };
 
   return (
-    <div ref={ref} className="text-white ml-8 mt-20">
+    <div ref={ref} className="text-white md:ml-8 mt-20 pb-16">
       <motion.section
         variants={{
           hidden: { opacity: 0, y: 75 },
@@ -41,8 +41,8 @@ const Projects = () => {
         transition={{ duration: 1.5, delay: 0.2 }}
         className=""
       >
-        <h2 className="my-9 text-4xl">PROJECTS</h2>
-        <ul className="grid grid-cols-3 gap-3">
+        <h2 className="md:my-9 pl-4 md:pl-0 text-4xl">PROJECTS</h2>
+        <ul className="grid grid-cols-2 md:grid-cols-3  md:gap-3">
           {[
             {
               href: "https://url-shortner-livid.vercel.app/",
@@ -92,8 +92,7 @@ const Projects = () => {
             >
               <a href={project.href} target="_blank" rel="noreferrer">
                 <img
-                  width={450}
-                  className="p-4 h-64"
+                  className="w p-4 md:h-64"
                   src={project.src}
                   alt={project.alt}
                 />
