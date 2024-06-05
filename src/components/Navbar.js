@@ -29,7 +29,7 @@ const Navbar = () => {
       >
         <Contact />
         <motion.a
-          href="https://drive.google.com/file/d/1v3enbHqvhaTh8XcuNZmkJUifMu0f15ZN/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
           download=""
         >
           Download Resume
