@@ -17,11 +17,14 @@ const AboutMe = () => {
             Hello there. My name is Praise. I am a front-end developer based in
             Lagos, Nigeria. I have more than a year of experience building
             frontend web applications. I am proficient in technologies such as
-            HTML, CSS, JavaScript, React, and Next.js. I intend to transition
-            into full stack development, so I am currently learning backend
-            technologies like Node.js, Express.js, and Django. I am seeking out
-            opportunities to broaden my skill sets and improve as a developer. I
-            am committed to solving problems and developing top innovations.
+            HTML, CSS, JavaScript, React, and Next.js.
+          </p>
+          <p className="mt-2">
+            I intend to transition into full stack development, so I am
+            currently learning backend technologies like Node.js, Express.js,
+            and Django. I am seeking out opportunities to broaden my skill sets
+            and improve as a developer. I am committed to solving problems and
+            developing top innovations.
           </p>
         </TypeIt>
       </div>
@@ -31,7 +34,12 @@ const AboutMe = () => {
         transition={{ type: "spring", stiffness: 55 }}
         className="relative"
       >
-        <img className="h-[33rem] relative mix-blend-overlay" width={450} src={me} alt="me" />{" "}
+        <img
+          className="h-[33rem] relative mix-blend-overlay"
+          width={450}
+          src={me}
+          alt="me"
+        />{" "}
         <div className="absolute inset-0 bg-black opacity-50 mix-blend-overlay"></div>
       </motion.div>
     </div>

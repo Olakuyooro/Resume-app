@@ -18,7 +18,7 @@ const Navbar = () => {
           animate={{ x: 0 }}
           transition={{ type: "spring", stiffness: 50, delay: 0.25 }}
         >
-          Full Stack Developer
+          Frontend Developer
         </motion.h3>
       </main>
       <motion.div

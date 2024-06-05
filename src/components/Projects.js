@@ -2,9 +2,10 @@ import { useAnimation, useInView, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import shortner from "./images/URL Shortner.png";
 import tipCalculator from "./images/Tip calculator app.png";
-import calculator from "./images/Calculator app.png";
+// import calculator from "./images/Calculator app.png";
 import clipboard from "./images/Clipboard landing page.png";
 import ipTracker from "./images/React App.png";
+import productivePro from "./images/productive-pro.png"
 import TypeIt from "typeit-react";
 
 const Projects = () => {
@@ -52,19 +53,26 @@ const Projects = () => {
                 "Url Shortner - This is a url shortener I built using React and Tailwind CSS at the frontend integrated with a shortner api I built using Node js and Express",
             },
             {
+              href: "https://productive-pro-beta.vercel.app/",
+              src: productivePro,
+              alt: "productive-pro",
+              description:
+                "ProductivePro is a simple and intuitive todo application that allows users to manage their daily tasks efficiently. With user authentication, you can securely register and log in to your account, add and manage tasks, and view them on a calendar."
+            },
+            {
               href: "https://tip-calculator-alpha-flax.vercel.app/",
               src: tipCalculator,
               alt: "tip-calculator",
               description:
                 "Tip Calculator - I built this tip calculator using HTML, CSS, and JavaScript. The calculator accepts the amount to be paid, the tip percentage, with the number of people paying producing the total amount to be paid",
             },
-            {
-              href: "https://basic-calculator-app-ten.vercel.app/",
-              src: calculator,
-              alt: "calculator",
-              description:
-                "Basic Calculator - This is a basic calculator that perform simple arithmetic. I built it using HTML, CSS, and JavaScript. It also comes with a theme toggling functionality",
-            },
+            // {
+            //   href: "https://basic-calculator-app-ten.vercel.app/",
+            //   src: calculator,
+            //   alt: "calculator",
+            //   description:
+            //     "Basic Calculator - This is a basic calculator that perform simple arithmetic. I built it using HTML, CSS, and JavaScript. It also comes with a theme toggling functionality",
+            // },
             {
               href: "https://clipboardlandingsite.netlify.app/",
               src: clipboard,
