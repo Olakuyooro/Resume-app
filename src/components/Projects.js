@@ -6,6 +6,7 @@ import tipCalculator from "./images/Tip calculator app.png";
 import clipboard from "./images/Clipboard landing page.png";
 import ipTracker from "./images/React App.png";
 import productivePro from "./images/productive-pro.png"
+import ecommerce from "./images/E-commerce.png"
 import TypeIt from "typeit-react";
 
 const Projects = () => {
@@ -80,10 +81,10 @@ const Projects = () => {
               description: "Clipboard Landing Page - This is a landing page I built using HTML and CSS to show my layout skills"
             },
             {
-              href: " https://shoe-store-seven.vercel.app/",
-              src: shortner,
-              alt: "url-short",
-              description: "Shoe store - This is an e-commerce store built with React and integrated with Faker API and a custom API I built using Node Js and Express"
+              href: " https://my-store-kappa-liard.vercel.app/",
+              src: ecommerce,
+              alt: "e-commerce",
+              description: "This e-commerce app is designed to showcase my skills in frontend development using React. The app displays products from the FakeStore API, allowing users to browse items, view detailed information, and add products to their cart."
             },
             {
               href: "https://ip-address-tracker-zeta-kohl.vercel.app/",
