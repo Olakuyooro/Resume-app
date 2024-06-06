@@ -4,7 +4,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className='text-white flex justify-end space-x-6 pr-8'>
+    <div className='text-black md:text-white flex flex-col md:flex-row justify-end md:space-x-6 space-y-3 md:space-y-0 md:pr-8'>
       <div className='flex'>
         <MdMail className='text-xl'/>
         <a href = "mailto: pabloalabanza9@gmail.com">mail</a>

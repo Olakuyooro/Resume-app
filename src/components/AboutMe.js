@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const AboutMe = () => {
   return (
     <div className="flex flex-col md:flex-row md:space-x-28">
-      <div className="text-white w-72 ml-4 sm:w-[35rem] md:mt-20 md:ml-12 h-[30rem]">
+      <div className="text-white md:w-[35rem] ml-4 md:mt-20 md:ml-12 h-[30rem]">
         <TypeIt
           options={{
             speed: 10,
@@ -39,7 +39,7 @@ const AboutMe = () => {
           width={450}
           src={me}
           alt="me"
-        />{" "}
+        />
         <div className="absolute inset-0 bg-black opacity-50 mix-blend-overlay"></div>
       </motion.div>
     </div>
