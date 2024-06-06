@@ -44,7 +44,7 @@ const Projects = () => {
         className=""
       >
         <h2 className="md:my-9 pl-4 md:pl-0 text-4xl">PROJECTS</h2>
-        <ul className="grid grid-cols-2 md:grid-cols-3  md:gap-3">
+        <ul className="grid  md:grid-cols-3  md:gap-3">
           {[
             {
               href: "https://url-shortner-livid.vercel.app/",
@@ -114,7 +114,7 @@ const Projects = () => {
                           waitUntilVisible: true,
                         }}
                       >
-                        <p className="font-bold">{project.description}</p>
+                        <p className="font-bold text-xs md:block">{project.description}</p>
                       </TypeIt>
                     ) : null}
                   </div>
