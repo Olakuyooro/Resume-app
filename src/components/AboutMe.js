@@ -19,10 +19,10 @@ const AboutMe = () => {
           }}
         >
           <p className="text-lg leading-relaxed">
-            Hello there. My name is Praise. I am a front-end developer based in Lagos, Nigeria. I have more than a year of experience building frontend web applications. I am proficient in technologies such as HTML, CSS, JavaScript, React, and Next.js.
+            Hello there. My name is <span className="font-bold">Praise</span>. I am a front-end developer based in Lagos, Nigeria. I have more than 2 years of experience building frontend web applications. I am proficient in technologies such as HTML, CSS, JavaScript, React, and Next.js.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            I intend to transition into full stack development, so I am currently learning backend technologies like Node.js, Express.js, and Django. I am seeking out opportunities to broaden my skill sets and improve as a developer. I am committed to solving problems and developing top innovations.
+            I intend to transition into full stack development, so I am currently into backend technologies like Node.js, Express.js, and Django. I am seeking out opportunities to broaden my skill sets and improve as a developer. I am committed to solving problems and developing top innovations.
           </p>
         </TypeIt>
       </motion.div>
