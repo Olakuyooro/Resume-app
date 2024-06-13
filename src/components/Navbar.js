@@ -12,54 +12,64 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex md:flex-row justify-between text-white px-6 md:px-12 ">
-      <main>
-        <motion.h3
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          transition={{ type: "spring", stiffness: 50 }}
-        >
-          Kuyooro Praise
-        </motion.h3>
-        <motion.h3
-          initial={{ x: "-100vw" }}
+    <div className="bg-gray-900 text-white py-4 px-6 md:px-12">
+      <div className="flex justify-between items-center">
+        <div>
+          <motion.h3
+            className="text-xl font-bold"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 50 }}
+          >
+            Kuyooro Praise
+          </motion.h3>
+          <motion.h3
+            className="text-lg font-medium"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 50, delay: 0.25 }}
+          >
+            Frontend Developer
+          </motion.h3>
+        </div>
+        <div className="md:hidden relative">
+          <button onClick={toggleMenu} className="text-3xl focus:outline-none">
+            {isMenuOpen ? <IoMdClose /> : <MdMenu />}
+          </button>
+          {isMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="bg-white text-black flex z-10 flex-col space-y-3 mt-2 w-48 h-auto right-0 absolute py-3 px-4 rounded-lg shadow-lg"
+            >
+              <Contact />
+              <a
+                className="hover:underline"
+                href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
+                download=""
+              >
+                Download Resume
+              </a>
+            </motion.div>
+          )}
+        </div>
+        <motion.div
+          initial={{ x: "100vw" }}
           animate={{ x: 0 }}
           transition={{ type: "spring", stiffness: 50, delay: 0.25 }}
+          className="hidden md:flex space-x-6 items-center"
         >
-          Frontend Developer
-        </motion.h3>
-      </main>
-      <div className="md:hidden relative">
-        <button onClick={toggleMenu} className="text-2xl">
-          {isMenuOpen ? <IoMdClose /> : <MdMenu />}
-        </button>
-        {isMenuOpen && (
-          <div className="bg-white flex flex-col space-y-3 mt-2 w-60 h-48 top-7 right-[-1.5rem] absolute p-3">
-            <Contact />
-            <a
-              className="text-black"
-              href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
-              download=""
-            >
-              Download Resume
-            </a>
-          </div>
-        )}
+          <Contact />
+          <motion.a
+            className="hover:underline"
+            href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
+            download=""
+          >
+            Download Resume
+          </motion.a>
+        </motion.div>
       </div>
-      <motion.div
-        initial={{ x: "100vw" }}
-        animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 50, delay: 0.25 }}
-        className="md:flex space-x-6 hidden"
-      >
-        <Contact />
-        <motion.a
-          href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
-          download=""
-        >
-          Download Resume
-        </motion.a>
-      </motion.div>
     </div>
   );
 };

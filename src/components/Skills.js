@@ -24,8 +24,8 @@ const Skills = () => {
   }, [isInView, mainControls]);
 
   const imageVariants = {
-    hidden: { opacity: 0, x: 100 },
-    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
   };
 
   const skills = [
@@ -41,20 +41,25 @@ const Skills = () => {
   ];
 
   return (
-    <div className="px-6 md:px-12 mt-12" ref={ref}>
-      <h2 className="text-4xl text-white mb-8">Skills</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="px-6 md:px-12 mt-36" ref={ref}>
+      <h2 className="text-4xl text-black mb-8 text-center">Skills</h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
         {skills.map((skill, index) => (
-          <motion.img
+          <motion.div
             key={index}
-            width={200}
-            src={skill.src}
-            alt={skill.alt}
+            className="flex justify-center items-center p-4 bg-gray-800 rounded-lg shadow-lg"
             variants={imageVariants}
             initial="hidden"
             animate={mainControls}
             transition={{ duration: 0.5, delay: skill.delay }}
-          />
+            whileHover={{ scale: 1.1 }}
+          >
+            <img
+              className="w-20 h-20 md:w-24 md:h-24 object-contain"
+              src={skill.src}
+              alt={skill.alt}
+            />
+          </motion.div>
         ))}
       </div>
     </div>

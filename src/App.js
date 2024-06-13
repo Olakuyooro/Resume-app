@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div>
-      <div className='mt-8' >
+      <div >
         <Navbar />
       </div>
       <div>
