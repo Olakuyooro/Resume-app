@@ -46,7 +46,7 @@ const Navbar = () => {
               <Contact />
               <a
                 className="hover:underline"
-                href="https://drive.google.com/file/d/1fKOlsVwDLH0YYY4eVO-xSXMuSeotxmNN/view?usp=drive_link"
+                href="https://drive.google.com/file/d/133TM3lPc9HEEjMrgPa78wGMRA4WZwwfV/view?usp=drive_link"
                 download=""
               >
                 Download Resume
