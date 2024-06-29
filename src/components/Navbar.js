@@ -63,7 +63,7 @@ const Navbar = () => {
           <Contact />
           <motion.a
             className="hover:underline"
-            href="https://drive.google.com/file/d/1FpMzdGso4nDLN6QXNKuuW6vzBryexnaK/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Mnb13wL0Sm1TAF9ARSnDiXyqhKyteQRp/view?usp=drive_link"
             download=""
           >
             Download Resume
