@@ -34,7 +34,7 @@ const Projects = () => {
         transition={{ duration: 1.5, delay: 0.2 }}
         className="px-4 md:px-8"
       >
-        <h2 className="text-4xl mb-16 text-black text-center">PROJECTS</h2>
+        <h2 className="text-4xl mb-16 text-black text-center">PERSONAL PROJECTS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {[
             {
